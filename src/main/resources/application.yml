@@ -1,0 +1,26 @@
+server:
+  port: 8300
+
+spring:
+  application:
+    name: pos-user-management-service
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    protocol: smtps
+    username: testapi008@gmail.com
+    password: Test@p!008
+    properties:
+      mail:
+        transport:
+          protocal: smtps
+        smtps:
+          auth: true
+          starttls:
+            enabled: true
+          timeout: 8000
+
+support:
+  email: testapi008@gmail.com
+
+
